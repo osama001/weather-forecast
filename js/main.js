@@ -46,9 +46,9 @@ async function getWeather(city){
      if(currentINdex => 6 ){
         currentINdex = 0
 
-        tomorrow= days[currentINdex+1]
+        tomorrow= days[currentINdex]
         day2.innerHTML=tomorrow
-        after2days= days[currentINdex+2]
+        after2days= days[currentINdex+1]
         day3.innerHTML=after2days
      }else{
         tomorrow= days[currentINdex+1]
