@@ -78,7 +78,7 @@ async function getWeather(city){
      day3img.setAttribute('src',thirdsrc)
      day3desc.innerHTML = dataRes.forecast.forecastday[2].day.condition.text
      day3temp.innerHTML=dataRes.forecast.forecastday[2].day.maxtemp_c
-     day3tempسs.innerHTML=dataRes.forecast.forecastday[2].day.mintemp_c
+     day3temps.innerHTML=dataRes.forecast.forecastday[2].day.mintemp_c
      console.log(day1img,day2img,day3img)
 
 }
