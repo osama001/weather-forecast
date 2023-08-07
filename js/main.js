@@ -66,7 +66,6 @@ async function getWeather(city){
            
              let   tomorrow = new Date(dataRes.forecast.forecastday[1].date)
              let   tomorrowName= days[tomorrow.getDay()]
-          
              day2.innerHTML=tomorrowName
      
      day2img.src = dataRes.forecast.forecastday[1].day.condition.icon
